@@ -6,14 +6,9 @@
   <img src="docs/images/actions.png" alt="Azure Machine Learning + Actions" height="80"/>
 </p>
 
-This template can be used for easily setting up a data science or machine learning project with automated training and deployment using [GitHub Actions](https://github.com/features/actions) and [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/). For a more comprehensive version of this automated pipeline, see the [aml-template](https://github.com/Azure/aml-template) repository.
+This repository can be used for easily setting up a data science or machine learning project with automated training and deployment using [GitHub Actions](https://github.com/features/actions) and [Azure Machine Learning](https://docs.microsoft.com/en-us/azure/machine-learning/). 
 
 # Getting started
-
-### YouTube Video
-
-Click on the image to view the video on YouTube. The video shows you the setup process, which is also described below:
-[![Azure Machine Learning GitHub Actions - Setup Guide](http://img.youtube.com/vi/bmFr0LYo_6o/maxresdefault.jpg)](http://www.youtube.com/watch?v=bmFr0LYo_6o "Azure Machine Learning GitHub Actions - Setup Guide")
 
 ### 1. Prerequisites
 
@@ -22,7 +17,6 @@ The following prerequisites are required to make this repository work:
 - Contributor access to the Azure subscription
 - Access to [GitHub Actions](https://github.com/features/actions)
 
-If you don’t have an Azure subscription, create a free account before you begin. Try the [free or paid version of Azure Machine Learning](https://aka.ms/AMLFree) today.
 
 ### 2. Create repository
 
@@ -143,18 +137,3 @@ This error message appears, in case the `Azure/aml-workspace` action tries to cr
 MLOps empowers data scientists and machine learning engineers to bring together their knowledge and skills to simplify the process of going from model development to release/deployment. ML Ops enables you to track, version, test, certify and reuse assets in every part of the machine learning lifecycle and provides orchestration services to streamline managing this lifecycle. This allows practitioners to automate the end to end machine Learning lifecycle to frequently update models, test new models, and continuously roll out new ML models alongside your other applications and services.
 
 This repository enables Data Scientists to focus on the training and deployment code of their machine learning project (`code` folder of this repository). Once new code is checked into the `code` folder of the master branch of this repository the GitHub workflow is triggered and open source Azure Machine Learning actions are used to automatically manage the training through to deployment phases.
-
-# Contributing
-
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
-
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
-
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
-
